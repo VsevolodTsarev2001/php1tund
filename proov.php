@@ -44,14 +44,34 @@ echo "<h2>Kasutame veebis kasutavaid näidised</h2>";
 echo "sõnade arv lauses - ".str_word_count($tekst);
 // iseseisvalt - teksti kärpimine
 echo "<br>";
-$tekst2 = '    Põhitoetus võetakse ära 11.11 kui võlgneva   ';
+$tekst2 = '    Põhitoetus võetakse ära 11.11 kui võlgnevused ei ole parandatud   ';
 echo "<pre>$tekst2</pre>";
 echo "<pre>".trim($tekst2)."</pre>";
 echo "<pre>".ltrim($tekst2)."</pre>";
 echo "<pre>".rtrim($tekst2)."</pre>";
 
 //Teksti kärpimine
-echo "<br>";
-echo trim($tekst2, "P, t..k");	//oman should soften but not weake
+//echo "<br>";
+//echo trim($tekst2, "A, a, k..n, w");	//oman should soften but not weake
 
 //Tekst kui massiiv
+echo "<br>";
+$massiivitekst = 'Taiendav info opilase kohta';
+echo "1.täht - ".$massiivitekst[0]; 				//T
+echo '<br>';
+echo "4.täht - ".$massiivitekst[4];                //e
+
+//
+echo '<br>';
+$tekst = 'All thinking men are atheists';
+echo substr($tekst, 3, 5);		//thin
+echo '<br>';
+echo substr($tekst, 4, -13);	//thinking men
+echo '<br>';
+echo substr($tekst, -8, 7);		//atheist
+
+//Kolmas sõna
+echo '<br>';
+$sona = str_word_count($massiivitekst,1);
+print_r($sona); //Array ( [0] => Taiendav [1] => info [2] => opilase [3] => kohta)
+echo "Kolmas sõna - ".$sona[2];
