@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Современный шрифт */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    color: GhostWhite;
+    background-color: SlateGray;
+    width: 65%;
+    text-align: center;
+    border: dashed 4pt DimGray;
+    padding: 2%;
+    margin: 10px 0; /* Отступы сверху и снизу */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main section {
+    background-color: LightSlateGray;
+    border: double 4pt SlateGray;
+    margin: 10px;
+    width: 50%; /* Немного увеличил ширину */
+    padding: 2%;
+}
+
+main section h2 {
+    color: LightBlue;
+    font-variant: normal;
+    text-align: center; /* Заголовок по центру */
+}
+
+nav {
+    width: 100%;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Элементы меню по центру */
+    background-color: SlateGray;
+}
+
+nav li {
+    margin: 0 10px; /* Отступы между элементами меню */
+}
+
+nav li a {
+    display: block;
+    color: GhostWhite;
+    text-align: center;
+    padding: 12px 20px; /* Увеличен отступ внутри ссылок */
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: LightSlateGray;
+}
