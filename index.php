@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<header>
-    <h1>PHP tunnitööd</h1>
-</header>
+<?php
+//päis-header
+include('header.php');
+?>
 
 <?php
 //navigeerimismenüü
@@ -19,9 +20,10 @@ include('nav.php');
     if(isset($_GET["leht"])){
         include ('content/'.$_GET["leht"]);
     } else {
-    include ('kodu.php');
+    include ('content/kodu.php');
     }
 ?>
+    </section>
     <?php
     //jalus
     include('footer.php');
