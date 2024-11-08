@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-header, footer {
+header {
     color: GhostWhite;
     background-color: SlateGray;
     width: 65%;
@@ -67,4 +67,17 @@ nav li a {
 
 nav li a:hover {
     background-color: LightSlateGray;
+}
+
+footer{
+    bottom: 0;
+    background-color: SlateGray;
+    color: GhostWhite;
+    height: 2em;
+    left: 0;
+    padding: 1%;
+    position: fixed;
+    font-size: small;
+    width: 100%;
+    text-align: -webkit-center;
 }

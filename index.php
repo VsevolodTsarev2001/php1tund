@@ -19,10 +19,14 @@ include('nav.php');
     if(isset($_GET["leht"])){
         include ('content/'.$_GET["leht"]);
     } else {
-    echo "Tere tulemast!";
+    include ('kodu.php');
     }
 ?>
-</section>
+    <?php
+    //jalus
+    include('footer.php');
+    ?>
+
 </body>
 </html>
 
