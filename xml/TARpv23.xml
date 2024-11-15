@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ruhm>
+
+    <opilane>
+        <nimi>Valeria</nimi>
+        <perekonnanimi>Allik</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Pruunid</silmade_varv>
+        <hobbi>Programmerimine, Tansija</hobbi>
+        <koduleht>ValeriaAllik23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Martin</nimi>
+        <perekonnanimi>Sild</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Sinised</silmade_varv>
+        <hobbi>Programmerimine, suitsutamine</hobbi>
+        <koduleht>MartinSild23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Kirill</nimi>
+        <perekonnanimi>Sats</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Rohelised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>KirillSats23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>David</nimi>
+        <perekonnanimi>Lennuk</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Pruunid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>DavidLennuk23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Marija</nimi>
+        <perekonnanimi>Gorbunova</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Sinised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>MarijaGorbunova23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Roman</nimi>
+        <perekonnanimi>Sandakov</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Hallid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>RomanSandakov23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Aleksandra</nimi>
+        <perekonnanimi>Semjonova</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Pruunid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>AleksandraSemjonova23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Vsevolod</nimi>
+        <perekonnanimi>Tsarev</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Rohelised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>VsevolodTsarev23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Daria</nimi>
+        <perekonnanimi>Halchenko</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Hallid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>DariaHalchenko23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Bogdan</nimi>
+        <perekonnanimi>Viblyy</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Rohelised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>BogdanViblyy23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Jelizaveta</nimi>
+        <perekonnanimi>Ostapjuk</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Sinised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>JelizavetaOstapjuk23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Anton</nimi>
+        <perekonnanimi>Ivanov</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Pruunid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>AntonIvanov23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Timur</nimi>
+        <perekonnanimi>Baširov</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Rohelised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>TimurBasirov23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Erik</nimi>
+        <perekonnanimi>Gerega</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Sinised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>ErikGerega23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Vladislav</nimi>
+        <perekonnanimi>Kudriashev</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Sinised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>VladislavKudriashev23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Aleksander</nimi>
+        <perekonnanimi>Milišenko</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Rohelised</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>AleksanderMilisenko23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>David</nimi>
+        <perekonnanimi>Myrseth</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Hallid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>DavidMyrseth23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Bogdan</nimi>
+        <perekonnanimi>Sergachev</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Hallid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>BogdanSergachev23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Gleb</nimi>
+        <perekonnanimi>Sõtšjov</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Pruunid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>GlebSotsjov23.thkit.ee</koduleht>
+    </opilane>
+
+    <opilane>
+        <nimi>Aleksandr</nimi>
+        <perekonnanimi>Nadvornõi</perekonnanimi>
+        <vanus>17</vanus>
+        <silmade_varv>Hallid</silmade_varv>
+        <hobbi>Programmerimine</hobbi>
+        <koduleht>AleksandrNadvornoi23.thkit.ee</koduleht>
+    </opilane>
+</ruhm>

@@ -18,5 +18,11 @@
         <li>
             <a href="?leht=massiivid.php">Massiivid</a>
         </li>
+        <li>
+            <a href="xml/autodXMLfailist.php" target="_blank">XML autod</a>
+        </li>
+        <li>
+            <a href="xml/RuhmXMLfailist.php" target="_blank">XML rühm</a>
+        </li>
     </ul>
 </nav>
