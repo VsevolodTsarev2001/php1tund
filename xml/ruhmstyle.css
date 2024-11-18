@@ -1,82 +1,233 @@
-/* Üldine stiil */
+/* Общие стили */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa; /* светлый фон */
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #333; /* цвет текста */
+    line-height: 1.6;
 }
 
-/* Pealkiri */
+/* Центрированный заголовок */
 h2 {
     text-align: center;
-    color: #4CAF50;
-    margin-top: 20px;
+    color: #2c3e50;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-/* Vorm stiil */
+/* Стиль формы */
 form {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-input[type="text"] {
-    padding: 8px;
-    width: 200px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+/* Текстовые поля и кнопки */
+input[type="text"], input[type="url"], input[type="number"], input[type="color"], input[type="radio"] {
+    padding: 12px;
+    margin: 10px 0;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Псевдоклассы для полей ввода */
+input[type="text"]:focus, input[type="url"]:focus, input[type="number"]:focus, input[type="color"]:focus {
+    border-color: #3498db; /* синий цвет при фокусе */
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3); /* мягкая тень при фокусе */
+}
+
+/* Кнопки */
 input[type="submit"] {
-    padding: 8px 15px;
-    background-color: #4CAF50;
+    padding: 12px 25px;
+    background-color: #3498db; /* синий */
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Hover эффект для кнопки */
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #2980b9; /* темно-синий */
+    transform: translateY(-3px); /* плавный подъем */
 }
 
-/* Tabeli stiil */
+/* Таблицы */
 table {
     width: 80%;
-    margin: 30px auto;
+    margin: 40px auto;
     border-collapse: collapse;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
 }
 
-th, td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+table:hover {
+    transform: translateY(-5px); /* Плавное поднятие таблицы при наведении */
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #3498db;
     color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
 }
 
 tr:hover {
-    background-color: #f2f2f2;
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
 }
 
-/* Linkide stiil */
-a {
-    color: #007bff;
-    text-decoration: none;
+/* Стиль для окружностей с именами */
+#ringad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
 }
 
-a:hover {
-    text-decoration: underline;
+#circle {
+    width: 120px;
+    height: 120px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* тень для круга */
 }
 
-/* Teate stiil */
-p {
+/* Hover эффект для круга */
+#circle:hover {
+    transform: scale(1.1);
+    background-color: #2980b9; /* темно-синий при наведении */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* увеличенная тень */
+}
+
+/* Панель с добавлением нового ученика */
+#flip {
+    cursor: pointer;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
     text-align: center;
     font-size: 18px;
-    color: #ff0000;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover эффект для кнопки "Добавить нового ученика" */
+#flip:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px); /* плавный подъем */
+}
+
+/* Панель с формой добавления нового ученика */
+#panel {
+    display: none;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    transform: translateY(-30px);
+    opacity: 0;
+    animation: slideDown 0.5s ease-out forwards;
+}
+
+#panel input[type="submit"] {
+    width: 100%;
+}
+
+/* Стиль для переключателя */
+#panel input[type="radio"] {
+    margin-right: 8px;
+}
+
+#panel label {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Анимация для появления панели */
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Мобильный стиль */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    #flip, #panel {
+        width: 100%;
+    }
+
+    form {
+        padding: 0 10px;
+    }
+
+    /* Уменьшение шрифта на маленьких экранах */
+    h2 {
+        font-size: 28px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    table td, table th {
+        font-size: 14px;
+        padding: 10px;
+    }
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ruhm>
 
     <opilane>
@@ -7,7 +7,8 @@
         <vanus>17</vanus>
         <silmade_varv>Pruunid</silmade_varv>
         <hobbi>Programmerimine, Tansija</hobbi>
-        <koduleht>ValeriaAllik23.thkit.ee</koduleht>
+        <koduleht>https://ValeriaAllik23.thkit.ee</koduleht>
+        <gender>Female</gender>
     </opilane>
 
     <opilane>
@@ -16,7 +17,8 @@
         <vanus>17</vanus>
         <silmade_varv>Sinised</silmade_varv>
         <hobbi>Programmerimine, suitsutamine</hobbi>
-        <koduleht>MartinSild23.thkit.ee</koduleht>
+        <koduleht>https://MartinSild23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -25,7 +27,8 @@
         <vanus>17</vanus>
         <silmade_varv>Rohelised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>KirillSats23.thkit.ee</koduleht>
+        <koduleht>https://KirillSats23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -34,7 +37,8 @@
         <vanus>17</vanus>
         <silmade_varv>Pruunid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>DavidLennuk23.thkit.ee</koduleht>
+        <koduleht>https://DavidLennuk23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -43,7 +47,8 @@
         <vanus>17</vanus>
         <silmade_varv>Sinised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>MarijaGorbunova23.thkit.ee</koduleht>
+        <koduleht>https://MarijaGorbunova23.thkit.ee</koduleht>
+        <gender>Female</gender>
     </opilane>
 
     <opilane>
@@ -52,7 +57,8 @@
         <vanus>17</vanus>
         <silmade_varv>Hallid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>RomanSandakov23.thkit.ee</koduleht>
+        <koduleht>https://RomanSandakov23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -61,7 +67,8 @@
         <vanus>17</vanus>
         <silmade_varv>Pruunid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>AleksandraSemjonova23.thkit.ee</koduleht>
+        <koduleht>https://AleksandraSemjonova23.thkit.ee</koduleht>
+        <gender>Female</gender>
     </opilane>
 
     <opilane>
@@ -70,7 +77,8 @@
         <vanus>17</vanus>
         <silmade_varv>Rohelised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>VsevolodTsarev23.thkit.ee</koduleht>
+        <koduleht>https://VsevolodTsarev23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -79,7 +87,8 @@
         <vanus>17</vanus>
         <silmade_varv>Hallid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>DariaHalchenko23.thkit.ee</koduleht>
+        <koduleht>https://DariaHalchenko23.thkit.ee</koduleht>
+        <gender>Female</gender>
     </opilane>
 
     <opilane>
@@ -88,7 +97,8 @@
         <vanus>17</vanus>
         <silmade_varv>Rohelised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>BogdanViblyy23.thkit.ee</koduleht>
+        <koduleht>https://BogdanViblyy23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -97,7 +107,8 @@
         <vanus>17</vanus>
         <silmade_varv>Sinised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>JelizavetaOstapjuk23.thkit.ee</koduleht>
+        <koduleht>https://JelizavetaOstapjuk23.thkit.ee</koduleht>
+        <gender>Female</gender>
     </opilane>
 
     <opilane>
@@ -106,7 +117,8 @@
         <vanus>17</vanus>
         <silmade_varv>Pruunid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>AntonIvanov23.thkit.ee</koduleht>
+        <koduleht>https://AntonIvanov23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -115,7 +127,8 @@
         <vanus>17</vanus>
         <silmade_varv>Rohelised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>TimurBasirov23.thkit.ee</koduleht>
+        <koduleht>https://TimurBasirov23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -124,7 +137,8 @@
         <vanus>17</vanus>
         <silmade_varv>Sinised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>ErikGerega23.thkit.ee</koduleht>
+        <koduleht>https://ErikGerega23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -133,7 +147,8 @@
         <vanus>17</vanus>
         <silmade_varv>Sinised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>VladislavKudriashev23.thkit.ee</koduleht>
+        <koduleht>https://VladislavKudriashev23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -142,7 +157,8 @@
         <vanus>17</vanus>
         <silmade_varv>Rohelised</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>AleksanderMilisenko23.thkit.ee</koduleht>
+        <koduleht>https://AleksanderMilisenko23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -151,7 +167,8 @@
         <vanus>17</vanus>
         <silmade_varv>Hallid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>DavidMyrseth23.thkit.ee</koduleht>
+        <koduleht>https://DavidMyrseth23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -160,7 +177,8 @@
         <vanus>17</vanus>
         <silmade_varv>Hallid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>BogdanSergachev23.thkit.ee</koduleht>
+        <koduleht>https://BogdanSergachev23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -169,7 +187,8 @@
         <vanus>17</vanus>
         <silmade_varv>Pruunid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>GlebSotsjov23.thkit.ee</koduleht>
+        <koduleht>https://GlebSotsjov23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 
     <opilane>
@@ -178,6 +197,7 @@
         <vanus>17</vanus>
         <silmade_varv>Hallid</silmade_varv>
         <hobbi>Programmerimine</hobbi>
-        <koduleht>AleksandrNadvornoi23.thkit.ee</koduleht>
+        <koduleht>https://AleksandrNadvornoi23.thkit.ee</koduleht>
+        <gender>Male</gender>
     </opilane>
 </ruhm>
