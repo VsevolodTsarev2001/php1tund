@@ -24,5 +24,8 @@
         <li>
             <a href="xml/RuhmXMLfailist.php" target="_blank">XML rühm</a>
         </li>
+        <li>
+            <a href="content/andmebaas/MatkaleRegister.php" target="_blank">Reegistrerimine matkale</a>
+        </li>
     </ul>
 </nav>
