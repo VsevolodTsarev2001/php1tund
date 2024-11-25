@@ -1,0 +1,144 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main header */
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+    background-color: #1d3557;
+    color: white;
+    margin: 0;
+}
+
+/* Navigation menu */
+#meny {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+#meny ul {
+    list-style: none;
+    padding: 0;
+}
+
+#meny li {
+    width: 140px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#meny li a {
+    display: block;
+    text-decoration: none;
+}
+
+#meny img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Information box for each participant */
+#sisu {
+    margin: 20px auto;
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Styling the participant info section */
+#sisu .info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#sisu .info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#sisu .info a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#sisu .info div {
+    margin-bottom: 15px;
+}
+
+/* Form styles for adding new participants */
+form {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"], form textarea, form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #457b9d;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #1d3557;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

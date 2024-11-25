@@ -2,8 +2,8 @@ CREATE TABLE loomad(
     id int PRIMARY KEY AUTO_INCREMENT,
     loomanimi varchar(20),
     omanik varchar(30),
-    varv varchar(20)),
-    pilt text);
+    varv varchar(20),
+    pilt TEXT);
 
 INSERT INTO loomad(loomanimi, omanik, varv, pilt)
 VALUES ('koer Banglodesh', 'Bogdan', 'red', 'pilti link');

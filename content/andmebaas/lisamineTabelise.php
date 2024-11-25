@@ -1,6 +1,6 @@
 <?php
 require ('conf.php');
-require ('conf2zone_ee.php');
+//require ('conf2zone_ee.php');
 
 
 global $yhendus;
@@ -47,7 +47,8 @@ $paring->execute();
 
 <?php
 
-while($paring->fetch()){
+while($paring->fetch())
+{
     echo "<tr>";
     echo "<td><a style='color: red' href='?kustuta=$id'>X</a></td>";
     echo"<td>".$id."</td>";
@@ -55,7 +56,7 @@ while($paring->fetch()){
     // htmlspecialchars - ei käivita sisestatud koodi <>
     echo "<td>".htmlspecialchars($omanik)."</td>";
     echo "<td>".htmlspecialchars($varv)."</td>";
-    echo "<td><img src='$pilt' alt='pilt'width='200px'></td>";
+    echo "<td><img src='$pilt' alt='pilt' width='200px'></td>";
     echo "</tr>";
 }
 ?>

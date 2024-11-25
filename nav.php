@@ -27,5 +27,8 @@
         <li>
             <a href="content/andmebaas/MatkaleRegister.php" target="_blank">Reegistrerimine matkale</a>
         </li>
+        <li>
+            <a href="content/andmebaas/MatkajadRegister.php" target="_blank">Matkajad 1 kaupa</a>
+        </li>
     </ul>
 </nav>

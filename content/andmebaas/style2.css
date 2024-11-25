@@ -1,0 +1,132 @@
+/* Общие настройки */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+/* Навигационное меню */
+#meny {
+    width: 20%;
+    margin: 30px 0;
+    float: left;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#meny ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#meny li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+#meny li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#meny li a:hover {
+    color: #4CAF50;
+}
+
+/* Контейнер для контента */
+#sisu {
+    margin-left: 25%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для форм */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="color"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Стили для информации о животном */
+div {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div img {
+    max-width: 100px;
+    margin: 10px 0;
+}
+
+div a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: darkred;
+}
+
+/* Стили для кнопки "ЛИШИТЬ" */
+#kustuta {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#kustuta:hover {
+    color: darkred;
+}
