@@ -45,7 +45,7 @@ if(isset($_REQUEST["uusnimi"]) && !empty($_REQUEST["nimi"]))
     ?>
     </ul>
     <?PHP
-    echo "<a href='?lisamine=jah='>LISA loom...</a>"
+    echo "<a href='?lisamine=jah='>LISA inimene...</a>"
 
     ?>
 
