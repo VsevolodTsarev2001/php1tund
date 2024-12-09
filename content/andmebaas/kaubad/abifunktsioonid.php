@@ -1,9 +1,9 @@
 <?php
-require_once ('conf.php');
+//require_once ('conf.php');
+require_once ('conf2zone_ee.php');
 global $yhendus;
 
-require_once('conf.php');
-global $yhendus;
+
 
 // Функция для получения данных о группах товаров
 function kysiGruppideAndmed()

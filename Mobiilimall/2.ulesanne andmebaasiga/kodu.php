@@ -1,5 +1,6 @@
 <?php
-require_once('conf.php');
+//require_once('conf.php');
+require_once ('conf2zone_ee.php');
 include("p2is.php");
 global $yhendus;
 // Проверка, есть ли параметр "anecdote" в URL

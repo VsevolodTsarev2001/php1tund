@@ -1,4 +1,5 @@
 <?php
+require_once ("conf2zone_ee.php");
 require("abifunktsioonid.php");
 $kaubad=kysiKaupadeAndmed();
 ?>

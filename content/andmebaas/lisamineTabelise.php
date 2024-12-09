@@ -1,6 +1,6 @@
 <?php
-require ('conf.php');
-//require ('conf2zone_ee.php');
+//require ('conf.php');
+require ('conf2zone_ee.php');
 
 
 global $yhendus;

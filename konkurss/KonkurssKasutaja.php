@@ -1,5 +1,6 @@
 <?php
-require_once ('conf.php');
+//require_once ('conf.php');
+require_once ('conf2zone_ee.php');
 global $yhendus;
 
 // Добавление +1 или -1 пункта

@@ -1,5 +1,6 @@
 <?php
 require("abifunktsioonid.php");
+require_once ("conf2zone_ee.php");
 if(isSet($_REQUEST["grupilisamine"])){
     lisaGrupp($_REQUEST["uuegrupinimi"]);
     header("Location: kaubahaldus.php");

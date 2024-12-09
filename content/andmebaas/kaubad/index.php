@@ -1,5 +1,7 @@
 <?php
+require_once ('conf2zone_ee.php');
 require("abifunktsioonid.php");
+
 
 // Обработка добавления группы
 if(isset($_REQUEST["grupilisamine"])) {
