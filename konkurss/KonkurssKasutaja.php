@@ -2,6 +2,7 @@
 //require_once ('conf.php');
 require_once ('conf2zone_ee.php');
 global $yhendus;
+require_once ('logout.inc.php');
 
 // Добавление +1 или -1 пункта
 if(isset($_REQUEST["heakonkurss_id"])){
@@ -52,10 +53,41 @@ if(isset($_REQUEST["muudaAvalik"])){
 <h1>TARpv23 jõulu konkursid - Kasutaja</h1>
 <nav>
     <ul>
-        <li><a href="KonkurssAdmin.php">Admin</a></li>
-        <li><a href="KonkurssKasutaja.php">Kasutaja</a></li>
+        <?php
+        if (isset($_SESSION["useruid"])) {
+
+            if ($_SESSION["role"] == "admin") {
+                echo '<li><a href="KonkurssAdmin.php">Admin</a></li>';
+            }
+            else if ($_SESSION["role"] == "kasutaja") {
+                echo '<li><a href="KonkurssKasutaja.php">Kasutaja</a></li>';
+                echo '<li><a href="konkursInfo.php">Info</a></li>';
+            } else {
+                echo '<li><a href="konkursInfo.php">Info</a></li>';
+            }
+            echo '
+            <li>
+                <form method="POST">
+                    <input type="submit" class="submit-btn2" name="logout" value="Logout">
+                </form>
+            </li>';
+        } else {
+            echo '<li><a href="konkursInfo.php">Info</a></li>';
+            echo '<li><a href="login.php">Login</a></li>';
+            echo '<li><a href="signup.php">Registreeri</a></li>';
+        }
+        ?>
     </ul>
 </nav>
+<?php
+
+if (isset($_SESSION['useruid'])) {
+    echo '<div class="styled-form"><p>Tere tulemast ' . $_SESSION["useruid"] . '</p></div>';
+}
+else {
+
+}
+?>
 <form action="?">
     <label for="uusKonkurss">Lisa konkurssi nimi</label>
     <input type="text" name="uusKonkurss" id="uusKonkurss">
