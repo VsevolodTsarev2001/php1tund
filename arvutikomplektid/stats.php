@@ -1,16 +1,7 @@
-<link rel="stylesheet" href="style.css">
-
 <?php
-$kasutaja="seva";
-$paroll="123456";
-$andmebass="seva";
-$serverinimi="localhost";
-
-$conn = new mysqli($serverinimi, $kasutaja, $paroll, $andmebass);
-
-if ($conn->connect_error) {
-    die("Ошибка подключения: " . $conn->connect_error);
-}
+// Подключаем конфигурацию базы данных
+include('conf2zone_ee.php');
+global $yhendus;
 
 $sql = "SELECT 
     COUNT(*) AS total_orders, 
@@ -19,7 +10,7 @@ $sql = "SELECT
     SUM(pakitud) AS total_pakitud 
     FROM arvutitellimused";
 
-$result = $conn->query($sql);
+$result = $yhendus->query($sql);
 $data = $result->fetch_assoc();
 
 echo "<h1>Статистика</h1>";
@@ -28,5 +19,5 @@ echo "Заказы с корпусом: " . $data['total_korpus'] . "<br>";
 echo "Заказы с монитором: " . $data['total_kuvar'] . "<br>";
 echo "Упакованные заказы: " . $data['total_pakitud'] . "<br>";
 
-$conn->close();
+$yhendus->close();
 ?>

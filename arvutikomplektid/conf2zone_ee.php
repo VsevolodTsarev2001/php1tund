@@ -8,3 +8,8 @@
 
      $yhendus=new mysqli($serverinimi,$kasutaja,$paroll,$andmebass);
      $yhendus->set_charset("utf8");
+
+     if ($yhendus->connect_error) {
+        die("Ошибка подключения к базе данных: " . $yhendus->connect_error);
+    }
+    ?>

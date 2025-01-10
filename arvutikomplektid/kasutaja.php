@@ -1,44 +1,72 @@
 <?php
 session_start();
+include('conf2zone_ee.php');
+global $yhendus;
+
+if (isset($_GET['code'])) {
+    die(highlight_file(__FILE__, 1));
+}
+
 if ($_SESSION['roll'] !== 'kasutaja') {
     header("Location: login.php");
     exit;
 }
 
-$kasutaja="seva";
-$paroll="123456";
-$andmebass="seva";
-$serverinimi="localhost";
-
-$conn = new mysqli($serverinimi, $kasutaja, $paroll, $andmebass);
-if ($conn->connect_error) {
-    die("Andmebaasi ühenduse viga: " . $conn->connect_error);
-}
+$message = "";  // переменная для сообщения
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $kirjeldus = $_POST['kirjeldus'];
-
     $korpus = isset($_POST['korpus']) && $_POST['korpus'] == '1' ? 1 : 0;
     $kuvar = isset($_POST['kuvar']) && $_POST['kuvar'] == '1' ? 1 : 0;
 
     $sql = "INSERT INTO arvutitellimused (kirjeldus, korpus, kuvar) VALUES ('$kirjeldus', $korpus, $kuvar)";
-    if ($conn->query($sql) === TRUE) {
-        echo "Tellimus lisatud!";
+    if ($yhendus->query($sql) === TRUE) {
+        $message = "Tellimus lisatud!";
     } else {
-        echo "Viga: " . $conn->error;
+        $message = "Viga: " . $yhendus->error;
     }
 }
 ?>
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvutikomplektid - Kasutaja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Arvutikomplektid - Kasutaja</h1>
+    <div class="header-info">
+        <p>Tere tulemast, <?php echo $_SESSION['roll']; ?>! Esita uus tellimus!</p>
+        <a href="logout.php" class="logout-button">Logi välja</a>
+    </div>
+</header>
 
-<h1>Esita uus tellimus</h1>
 <form method="post">
     <label>Kirjeldus: <input type="text" name="kirjeldus" required></label><br>
-    <label>Korpus: <input type="radio" name="korpus" value="1"> Jah</label>
-    <label><input type="radio" name="korpus" value="0"> Ei</label><br>
-    <label>Kuvar: <input type="radio" name="kuvar" value="1"> Jah</label>
-    <label><input type="radio" name="kuvar" value="0"> Ei</label><br>
+
+    <div class="radio-group">
+        <label>Korpus:</label><br>
+        <label><input type="radio" name="korpus" value="1" required> Jah</label>
+        <label><input type="radio" name="korpus" value="0"> Ei</label>
+    </div>
+
+    <div class="radio-group">
+        <label>Kuvar:</label><br>
+        <label><input type="radio" name="kuvar" value="1" required> Jah</label>
+        <label><input type="radio" name="kuvar" value="0"> Ei</label>
+    </div>
+
     <button type="submit">Esita tellimus</button>
 </form>
 
-<a href="logout.php">Logi välja</a>
+<?php if ($message): ?>
+    <div class="success-message">
+        <?php echo $message; ?>
+    </div>
+<?php endif; ?>
+
+</body>
+</html>

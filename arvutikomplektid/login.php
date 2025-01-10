@@ -1,5 +1,8 @@
 <?php
 session_start();
+if (isset($_GET['code'])) {
+    die(highlight_file(__FILE__, 1));
+}
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $kasutajanimi = $_POST['kasutajanimi'];
@@ -16,10 +19,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-<link rel="stylesheet" href="style.css">
-
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvutikomplektid - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Arvutikomplektid - Logi sisse</h1>
 <form method="post">
     <label>Kasutajanimi: <input type="text" name="kasutajanimi"></label><br>
     <label>Parool: <input type="password" name="parool"></label><br>
     <button type="submit">Logi sisse</button>
 </form>
+</body>
+</html>
